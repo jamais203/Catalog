@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Infos Page</title>
+</head>
+<body>
+
+<ul>
+    <li>List all the products from the catalog : localhost:8080/products</li>
+    <li>See the product's detail : localhost:8080/product/{id} , {id} has to be replace by the product id you want</li>
+    <li>List the items of your cart : localhost:8080/cart</li>
+    <li>Add a product to your cart : localhost:8080/add/{id}  , {id} has to be replace by the product id you want</li>
+    <li>Remove a product from your cart : localhost:8080/remove/{id}  , {id} has to be replace by the product id you want</li>
+</ul>
+<form th:action="@{/logout}" method="post">
+    <input type="submit" value="Sign Out"/>
+</form>
+</body>
+</html>
