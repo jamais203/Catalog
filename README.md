@@ -7,7 +7,7 @@ Sur le repository vous avez le code source de l'appli.
 
 Pour lancer l'application vous pouvez : 
 
-1) Télécharger et importer le projet dans votre IDE pour inspecter le code source et runner l'application à partir de votre IDE en exécutant la classe .
+1) Télécharger et importer le projet dans votre IDE pour inspecter le code source et runner l'application à partir de votre IDE en exécutant la classe "CatalogApplication".
 
 2) Cette méthode n'est pas d'actualité étant donné que le jar est trop volumineux pour être uploadé sur le repository github, se référer donc à l'option 1).
 Lancer le .jar présent sur le repository qui se nomme : "catalog-0.0.1-SNAPSHOT"
