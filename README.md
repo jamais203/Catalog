@@ -14,7 +14,7 @@ Lancer le .jar présent sur le repository qui se nomme : "catalog-0.0.1-SNAPSHOT
 	Pour exécuter le jar il suffit de double cliquer dessus, le jar s'exécutera en background, vous n'aurez donc pas de feedback visuel à première vue.
 	Attention néanmoins à vérifier que le port 8080 est libre sur votre machine avant d'exécuter le jar.
 	Voici la commande à exécuter sous windows pour vérifier cela : 
-		netstat -ano | findstr :8080  -> cette commande vous listera les processus qui utilisent le port 8080 s'il y en a
+		netstat -ano | findstr :8080  -> cette commande vous listera les processus qui utilisent le port 8080 s'il y en a.
 		taskkill /PID ??? /F          -> cette commande permet de killer les processus repérés avec la première commande. les '???' sont à remplacer par le PID du processus repéré à l'aide de la première commande, le PID est le numéro tout à droite dans le tableau retourné de la première commande.
 
 
